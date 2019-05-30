@@ -30,6 +30,8 @@ def count_elements(array)
   array.each do |data|
     if info[:name] == data[:name]
       info[:count] += 1
+
+      binding.pry
       end
     end
   end.uniq
